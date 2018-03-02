@@ -1,0 +1,15 @@
+<html>
+
+	<body>
+	
+		<form action= "Historical Energy Weather API (Degree Days API).php" method ="get">
+            City : <input type="text" name="city" id="city"/><br>
+			start_date : <input type="datetime" name="start_date" id="start_date"/>
+            end_date : <input type="datetime" name="end_date" id="end_date"/><br>
+			
+            <input type="submit" name="weather" value="Historical weather">
+        </form>
+
+	</body>
+	
+</html>
